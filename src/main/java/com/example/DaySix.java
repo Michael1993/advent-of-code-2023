@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 public class DaySix {
 
     public static void main(String[] args) {
-        String input = input();
+        String input = "input()";
 
         System.out.println(DaySix.solve(input));
         System.out.println(DaySix.solveComplex(input));
@@ -55,9 +55,4 @@ public class DaySix {
         }
     }
 
-    static String input() {
-        return """
-                Time:        62     73     75     65
-                Distance:   644   1023   1240   1023""";
-    }
 }
